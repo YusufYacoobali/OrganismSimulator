@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\n\ Controls\ and\ manages\ everything\ time\ related\ in\ the\ simulator\n\ It\ increments\ the\ time\n\ Time\ and\ day\ can\ also\ be\ reset\n\n\ @author\ Yusuf\ Yacoobali\ and\ Joyce\ Chong\n\ @version\ V1\n
+comment1.params=
+comment1.target=Time()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Time\n
+comment2.params=
+comment2.target=int\ getTime()
+comment2.text=\n\ Returns\ the\ current\ time\ for\ the\ system\n
+comment3.params=
+comment3.target=int\ getDay()
+comment3.text=\n\ Returns\ the\ current\ day\ for\ the\ system\n
+comment4.params=weather
+comment4.target=void\ incrementTime(Weather)
+comment4.text=\n\ Increments\ the\ time\ by\ an\ hour\n\ If\ 24\ hours\ have\ passed\ then\ day\ is\ incremented\n\ Weather\ is\ also\ incremented\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\n\ Resets\ the\ time\ and\ day\ variable\n
+numComments=6

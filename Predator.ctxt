@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Predator
+comment0.text=\n\ Abstract\ class\ Predator\ -\ represents\ shared\ methods\ and\ attributes\ of\ a\ predator.\ \n\ All\ methods\ are\ listed\ abstract\ first\ then\ non-abstract,\ both\ alphabetically.\ \n\n\ @author\ Yusuf\ Yacoobali\ and\ Joyce\ Chong\n\ @version\ V1\n
+comment1.params=randomAge\ field\ location\ foodLevel
+comment1.target=Predator(boolean,\ Field,\ Location,\ int)
+comment1.text=\n\ Creates\ an\ animal\ that\ is\ a\ predator\ and\ sends\ all\ but\ one\ parameters\ to\ the\ superclass\n\ Here\ the\ foodLevel\ is\ assigned\ depending\ on\ the\ predator\ species\ own\ individuality.\n
+comment2.params=food\ where
+comment2.target=Location\ eatFood(java.lang.Object,\ Location)
+comment3.params=newPredators\ time\ weather
+comment3.target=void\ act(java.util.List,\ int,\ java.lang.String)
+comment3.text=\n\ This\ is\ how\ all\ animals\ who\ are\ predators\ act\n\ They\ age,\ get\ hungry\ and\ hunt,\ give\ birth,\ get\ infected\ and\ die\n\ \ @param\ newPredators\ A\ list\ to\ return\ of\ newly\ born\ predators\n\ \ \ \ \ \ \ \ \ time\ \ \ \ \ \ \ \ \ current\ time\n\ \ \ \ \ \ \ \ \ weather\ \ \ \ \ \ current\ weather\n
+comment4.params=
+comment4.target=Location\ findFood()
+comment4.text=\n\ Look\ for\ prey\ adjacent\ to\ the\ current\ location.\n\ Only\ the\ first\ alive\ prey\ is\ eaten.\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\n
+comment5.params=
+comment5.target=void\ incrementHunger()
+comment5.text=\n\ Makes\ this\ predator\ hungry,\ which\ could\ result\ in\ its\ death.\n
+comment6.params=FOOD_VALUE
+comment6.target=void\ updateFoodLevel(int)
+comment6.text=\n\ Increments\ the\ foodLevel\ of\ the\ animal\ \n\ @param\ FOOD_VALUE\ food\ value\ of\ prey\n
+numComments=7

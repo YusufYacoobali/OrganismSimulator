@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Conditions
+comment0.text=\n\ Enumeration\ class\ Conditions\ -\ documents\ the\ five\ types\ of\ weather\ shown\ in\ the\ simulation.\n\ \n\ @author\ Yusuf\ Yacoobali\ and\ Joyce\ Chong\n\ @version\ V1\n
+comment1.params=weatherString
+comment1.target=Conditions(java.lang.String)
+comment1.text=\n\ Initialise\ with\ the\ corresponding\ weather\ condition\ string.\n\ @param\ weatherString\ The\ associated\ weather\ condition\ string.\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ @return\ The\ weather\ condition\ as\ a\ string.\n
+numComments=3

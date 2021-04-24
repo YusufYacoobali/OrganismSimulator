@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ Abstract\ class\ Plant\ -\ respresents\ plant\ entities\n\ Plants\ do\ not\ move\ therefore\ when\ they\ reproduce\ which\ results\ in\ a\ hotspot\ of\ greenery.\n\ All\ methods\ are\ listed\ abstract\ first\ then\ non-abstract,\ both\ alphabetically.\ \n\n\ @author\ Yusuf\ Yacoobali\ and\ Joyce\ Chong\n\ @version\ V1\n
+comment1.params=randomAge\ field\ location
+comment1.target=Plant(boolean,\ Field,\ Location)
+comment1.text=\n\ Creates\ a\ plant\ object\ and\ sends\ all\ parameters\ to\ the\ superclass\n
+comment2.params=newPlants\ time\ weather
+comment2.target=void\ act(java.util.List,\ int,\ java.lang.String)
+comment2.text=\n\ This\ is\ how\ all\ plant\ organisms\ act.\n\ They\ age,\ give\ birth\ with\ nearby\ plants,\ do\ not\ move,\ and\ can\ die.\n\ @param\ newPlants\ A\ list\ to\ return\ of\ newly\ born\ plants\n\ \ \ \ \ \ \ \ time\ \ \ \ \ \ current\ time\n\ \ \ \ \ \ \ \ weather\ \ \ current\ weather\n
+numComments=3

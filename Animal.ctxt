@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ An\ abstract\ class\ representing\ shared\ characteristics\ of\ animals.\n\ All\ methods\ are\ listed\ abstract\ first\ then\ non-abstract,\ both\ alphabetically.\ \n\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Yusuf\ Yacoobali\ and\ Joyce\ Chong\n\ @version\ V3\n
+comment1.params=randomAge\ field\ location
+comment1.target=Animal(boolean,\ Field,\ Location)
+comment1.text=\n\ Creates\ an\ animal\ and\ assigns\ it\ an\ infection\ field\n\ Sends\ the\ parameters\ up\ to\ the\ superclass\:\ Organism\n
+comment2.params=
+comment2.target=void\ infect()
+comment2.text=\n\ A\ organism\ can\ infect\ nearby\ animals\ by\ chance\ if\ it\ is\ infected\ \n
+comment3.params=
+comment3.target=boolean\ isInfected()
+comment3.text=\n\ Check\ if\ the\ animal\ is\ infected\ or\ not.\n\ @return\ True\ if\ is\ infected;\ False\ if\ otherwise.\n
+comment4.params=
+comment4.target=void\ uninfect()
+comment4.text=\n\ Uninfects\ the\ animal\ by\ chance\ \n\ which\ uses\ the\ real\ life\ scenario\:\ immune\ system\ fights\ off\ infection\n
+numComments=5

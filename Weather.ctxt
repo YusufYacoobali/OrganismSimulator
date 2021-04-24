@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\n\ Controls\ everything\ to\ do\ with\ the\ weather\ in\ the\ simulation\ from\ changing\ the\ weather\ to\ resetting\ \n\ All\ methods\ are\ arranged\ alphabetically.\n\n\ @author\ Yusuf\ Yacoobali\ and\ Joyce\ Chong\n\ @version\ V1\n
+comment1.params=
+comment1.target=Weather()
+comment1.text=\n\ Sets\ the\ weather\ conditions\ up\ with\ the\ help\ of\ the\ enum\ Conditions\ class\n
+comment2.params=
+comment2.target=void\ changeWeather()
+comment2.text=\n\ This\ method\ changes\ the\ weather\ by\ chance\ which\ is\ a\ little\ closer\ to\ reality\n
+comment3.params=
+comment3.target=void\ createWeather()
+comment3.text=\n\ Used\ to\ initialise\ the\ entirety\ of\ weather\ used\ in\ the\ simulator\n\ Creates\ a\ hashmap\ whichs\ stores\ all\ the\ weather\ conditions\ which\ are\ initalised.\n
+comment4.params=
+comment4.target=java.lang.String\ getWeather()
+comment4.text=\n\ Returns\ the\ current\ weather\ condition\n\ There\ may\ be\ multiple\ conditions\ which\ are\ true\ \n\ but\ only\ one\ is\ selected,\ hashmap\ has\ no\ order\ so\ it\ is\ randomly\ selected\n
+comment5.params=time
+comment5.target=void\ incrementWeather(int)
+comment5.text=\nChange\ the\ weather\ every\ 6\ hours\ in\ the\ simulator\n
+comment6.params=
+comment6.target=java.lang.String\ reset()
+comment6.text=\n\ Resets\ all\ weather\ conditions\ to\ false\ in\ the\ hashmap\n\ @return\ the\ simulation\ back\ to\ sunny\ weather\n
+numComments=7
